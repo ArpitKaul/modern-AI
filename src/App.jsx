@@ -4,6 +4,9 @@ import Collaboration from "./Components/Collaboration";
 import Header from "./Components/Header";
 import  Hero from "./Components/Hero";
 import Services from "./Components/Services";
+import Pricing from "./Components/Pricing";
+import RoadMap from "./Components/RoadMap";
+import Footer from "./Components/Footer"
 const App = () => {
 
   return (
@@ -15,6 +18,9 @@ const App = () => {
         <Benifits/>
         <Collaboration/>
         <Services/>
+        <Pricing/>
+        <RoadMap/>
+        <Footer/>
       </div>
       <ButtonGradient/>
     </>
